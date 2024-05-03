@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/Icons/Icons">
+        <file>Images/favicon.ico</file>
+        <file>Images/Backgroud1.png</file>
+        <file>Images/aide.png</file>
+        <file>Images/Backgroud2.png</file>
+        <file>Images/Beneficiaires.png</file>
+        <file>Images/dash.png</file>
+        <file>Images/dashboard.gif</file>
+        <file>Images/emp.png</file>
+        <file>Images/events.png</file>
+        <file>Images/form.gif</file>
+        <file>Images/icon.png</file>
+        <file>Images/list.gif</file>
+        <file>Images/loginpage.png</file>
+        <file>Images/logo.png</file>
+        <file>Images/profile.gif</file>
+        <file>Images/resetpwd.gif</file>
+        <file>Images/rest.png</file>
+        <file>Images/rsz_charts.png</file>
+        <file>Images/icon2.ico</file>
+        <file>Images/chat.ico</file>
+        <file>Images/data.png</file>
+        <file>Images/clothes.png</file>
+        <file>Images/food.png</file>
+        <file>Images/money.png</file>
+        <file>Images/network.png</file>
+        <file>Images/qrcode.png</file>
+        <file>Images/img5.png</file>
+        <file>Images/map.png</file>
+        <file>Images/ex.png</file>
+        <file>Images/mess.png</file>
+        <file>Images/arduino_tools.png</file>
+        <file>Images/update.png</file>
+        <file>Images/chaticon.png</file>
+        <file>Images/calculator.png</file>
+        <file>Images/arduino.png</file>
+        <file>Images/branch.png</file>
+    </qresource>
+</RCC>

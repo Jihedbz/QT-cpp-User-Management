@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MessengerConnectionDialog</class>
+ <widget class="QDialog" name="MessengerConnectionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>126</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="hostname">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white; border-radius: 10px; 
+background:rgba(0,0,0,0);
+border: 1px solid rgb(50,50,50);
+padding-left:5px;</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="port">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white; border-radius: 10px; 
+background:rgba(0,0,0,0);
+border: 1px solid rgb(50,50,50);
+padding-left:5px;</string>
+   </property>
+   <property name="maximum">
+    <number>99999</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:Poppins;
+font-weight:400;
+font-size:14px;</string>
+   </property>
+   <property name="text">
+    <string>Hostname:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family:Poppins;
+font-weight:400;
+font-size:14px;</string>
+   </property>
+   <property name="text">
+    <string>Port:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+background:rgb(19,19,19);
+color:white;
+}
+QPushButton:hover{
+background:rgb(129, 129, 129);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Accept</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+background:rgba(19,19,19,0);
+border: 1px solid black;
+color:black;
+}
+QPushButton:hover{
+background:rgb(19,19,19);
+color: white;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
